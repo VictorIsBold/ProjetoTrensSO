@@ -506,6 +506,8 @@
      <string>Trem 5</string>
     </property>
    </widget>
+   <zorder>label_trilho4_7</zorder>
+   <zorder>label_trilho4_4</zorder>
    <zorder>label_trilho1</zorder>
    <zorder>label_trilho2</zorder>
    <zorder>label_trilho3</zorder>
@@ -520,12 +522,10 @@
    <zorder>label_trilho1_3</zorder>
    <zorder>label_trilho2_3</zorder>
    <zorder>label_trilho4_3</zorder>
-   <zorder>label_trilho4_4</zorder>
    <zorder>label_trilho2_4</zorder>
    <zorder>label_trilho4_5</zorder>
    <zorder>label_trilho2_6</zorder>
    <zorder>label_trilho4_6</zorder>
-   <zorder>label_trilho4_7</zorder>
    <zorder>label_trem3</zorder>
    <zorder>label_trem4</zorder>
    <zorder>label_trem5</zorder>
@@ -546,7 +546,7 @@
      <x>0</x>
      <y>0</y>
      <width>914</width>
-     <height>22</height>
+     <height>20</height>
     </rect>
    </property>
   </widget>
