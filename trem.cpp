@@ -1,5 +1,7 @@
 #include "trem.h"
 #include <QtCore>
+#include <QMutex>
+#include <QSemaphore>
 
 //Construtor
 Trem::Trem(int ID, int x, int y){
@@ -14,7 +16,7 @@ void Trem::run(){
     while(true){
         switch(ID){
         case 1:     //Trem 1
-            if (y == 30 && x <330)
+            if (y == 30 && x < 330)
                 x+=10;
             else if (x == 330 && y < 150)
                 y+=10;
