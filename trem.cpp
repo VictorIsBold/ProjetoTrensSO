@@ -3,6 +3,14 @@
 #include <QMutex>
 #include <QSemaphore>
 
+bool mutex_0{false};
+bool mutex_1{false};
+bool mutex_2{false};
+bool mutex_3{false};
+bool mutex_4{false};
+bool mutex_5{false};
+bool mutex_6{false};
+
 //Construtor
 Trem::Trem(int ID, int x, int y){
     this->ID = ID;
@@ -16,12 +24,22 @@ void Trem::run(){
     while(true){
         switch(ID){
         case 1:     //Trem 1
-            if (y == 30 && x < 330)
+            if (y == 30 && x < 310)
                 x+=10;
+            else if (y == 30 && x == 310) {
+                if (not mutex_0) {
+                    x += 10;
+                    mutex_0 = true;
+                }
+            }
             else if (x == 330 && y < 150)
                 y+=10;
-            else if (x > 60 && y == 150)
+            else if (x > 60 && y == 150) {
                 x-=10;
+                if (x == 60) {
+                    mutex_0 = false;
+                }
+            }
             else
                 y-=10;
             emit updateGUI(ID, x,y);    //Emite um sinal
@@ -30,6 +48,7 @@ void Trem::run(){
             if (y == 30 && x < 600)
                 x+=10;
             else if (x == 600 && y < 150)
+
                 y+=10;
             else if (x > 330 && y == 150)
                 x-=10;
