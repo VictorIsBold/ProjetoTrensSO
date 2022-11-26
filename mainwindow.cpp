@@ -90,4 +90,3 @@ void MainWindow::on_Slider5_sliderMoved(int position)
 {
     trem5->changeSpeed(100-position);
 }
-
