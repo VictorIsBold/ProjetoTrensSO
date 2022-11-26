@@ -3,13 +3,13 @@
 #include <QMutex>
 #include <QSemaphore>
 
-bool mutex_0{false};
-bool mutex_1{false};
-bool mutex_2{false};
-bool mutex_3{false};
-bool mutex_4{false};
-bool mutex_5{false};
-bool mutex_6{false};
+QMutex mutex_0;
+QMutex mutex_1;
+QMutex mutex_2;
+QMutex mutex_3;
+QMutex mutex_4;
+QMutex mutex_5;
+QMutex mutex_6;
 
 //Construtor
 Trem::Trem(int ID, int x, int y){
