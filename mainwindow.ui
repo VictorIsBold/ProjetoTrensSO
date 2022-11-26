@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>914</width>
-    <height>509</height>
+    <height>455</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -102,32 +102,6 @@
     </property>
     <property name="text">
      <string/>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton">
-    <property name="geometry">
-     <rect>
-      <x>360</x>
-      <y>390</y>
-      <width>99</width>
-      <height>27</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Ligar</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_2">
-    <property name="geometry">
-     <rect>
-      <x>480</x>
-      <y>390</y>
-      <width>98</width>
-      <height>27</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Parar</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_trilho4_2">
@@ -429,7 +403,7 @@
    <widget class="QSlider" name="Slider4">
     <property name="geometry">
      <rect>
-      <x>290</x>
+      <x>280</x>
       <y>350</y>
       <width>160</width>
       <height>16</height>
@@ -442,7 +416,7 @@
    <widget class="QSlider" name="Slider1">
     <property name="geometry">
      <rect>
-      <x>210</x>
+      <x>200</x>
       <y>310</y>
       <width>160</width>
       <height>16</height>
@@ -455,7 +429,7 @@
    <widget class="QSlider" name="Slider2">
     <property name="geometry">
      <rect>
-      <x>400</x>
+      <x>390</x>
       <y>310</y>
       <width>160</width>
       <height>16</height>
@@ -468,7 +442,7 @@
    <widget class="QSlider" name="Slider3">
     <property name="geometry">
      <rect>
-      <x>590</x>
+      <x>580</x>
       <y>310</y>
       <width>160</width>
       <height>16</height>
@@ -481,7 +455,7 @@
    <widget class="QSlider" name="Slider5">
     <property name="geometry">
      <rect>
-      <x>480</x>
+      <x>470</x>
       <y>350</y>
       <width>160</width>
       <height>16</height>
@@ -494,7 +468,7 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>270</x>
+      <x>260</x>
       <y>320</y>
       <width>67</width>
       <height>17</height>
@@ -507,7 +481,7 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>450</x>
+      <x>440</x>
       <y>320</y>
       <width>67</width>
       <height>17</height>
@@ -520,7 +494,7 @@
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>650</x>
+      <x>640</x>
       <y>320</y>
       <width>67</width>
       <height>17</height>
@@ -533,7 +507,7 @@
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>350</x>
+      <x>340</x>
       <y>360</y>
       <width>67</width>
       <height>17</height>
@@ -546,7 +520,7 @@
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>540</x>
+      <x>530</x>
       <y>360</y>
       <width>67</width>
       <height>17</height>
@@ -563,8 +537,6 @@
    <zorder>label_trilho3</zorder>
    <zorder>label_trilho4</zorder>
    <zorder>label_trem1</zorder>
-   <zorder>pushButton</zorder>
-   <zorder>pushButton_2</zorder>
    <zorder>label_trilho4_2</zorder>
    <zorder>label_trilho1_2</zorder>
    <zorder>label_trilho2_2</zorder>
@@ -596,7 +568,7 @@
      <x>0</x>
      <y>0</y>
      <width>914</width>
-     <height>22</height>
+     <height>20</height>
     </rect>
    </property>
   </widget>
